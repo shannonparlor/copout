@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+  </head>
+    <body>
+      <h1>I got hooos</h1>
+
+      <div class="content">
+
+          <form id="whores"></form>
+
+          <ul id="Sluts"></ul>
+
+      </div>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDJRCQzReoa313SscKH6mVHgZAZcwxwRG0",
+    authDomain: "cool-b2cbc.firebaseapp.com",
+    databaseURL: "https://cool-b2cbc.firebaseio.com",
+    projectId: "cool-b2cbc",
+    storageBucket: "cool-b2cbc.appspot.com",
+    messagingSenderId: "658315965066",
+    appId: "1:658315965066:web:35f39931ee4fffab0f7373",
+    measurementId: "G-RS2YY2HXJR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.firestore();
+  db.settings ({ timestampsInSnapshots: true});
+</script>
+
+    <script src="app.js"></script>
+
+  
+
+</body>
+</html>
